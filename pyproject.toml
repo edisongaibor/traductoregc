@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "traductoregc"
+version = "0.0.2"
+description = "Traductor de palabras"
+authors = ["Edison Gaibor <edisongaiborconde@hotmail.com>"]
+keywords = ["keyword", "another_keyword"]
+readme = "README.md"
+license = "MIT"
+homepage = "https://github.com/JuanPerez/package_name"
+repository = "https://github.com/JuanPerez/package_name"
+include = [
+    "LICENSE",
+]
+
+[tool.poetry.scripts]
+traductoregc = "traductoregc.__main__:main"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+click = "^8.0.1"
+translate = "3.5.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+twine = "^3.4.1"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

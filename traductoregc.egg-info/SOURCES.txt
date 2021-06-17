@@ -1,0 +1,11 @@
+README.md
+setup.py
+traductoregc/__init__.py
+traductoregc/__main__.py
+traductoregc.egg-info/PKG-INFO
+traductoregc.egg-info/SOURCES.txt
+traductoregc.egg-info/dependency_links.txt
+traductoregc.egg-info/requires.txt
+traductoregc.egg-info/top_level.txt
+traductoregc/matematicas/__init__.py
+traductoregc/matematicas/basico.py
